@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dongle&family=Nanum+Pen+Script&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: monospace, sans-serif;
+}
+
+h1 {
+    background-color: rgb(0, 0, 0, 95%);
+    font-size: 3vw;
+    color: rgb(221, 160, 245);
+}
+
+div {
+    margin: 20px, 15px, 10px, 5px;
+    padding: 10px;
+    border: double 10px gray;
+}
+
+div::before {
+    content: '😊';
+}
+
+div::after {
+    content: '😂';
+}
+
+div:active {
+    background-color: aqua;
+}
+
+/* div:hover {
+    background-color: aqua;
+} */
+
+#todolist, #last_li {
+    background-color: burlywood;
+    font-family: Nanum Pen Script, sans-serif;
+    font-size: 30pt;
+}
+
+.point3 {
+    font-family: Nanum Pen Script, sans-serif;
+}
+
+/* #last_li {
+    font-family: Dongle, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    color:aliceblue
+} */
+
+a {
+    color:cadetblue;
+}
+
+a:visited {
+    text-decoration: line-through;
+}
+
+a:active {
+    background-color: black;
+    color: white;
+}
+
+
+a:hover {
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+div > ul {
+    font-style: italic;
+}
+
+div li {
+    color: red;
+}
+
+span {
+    font-size: 0.8em;
+}
+
+a ~ span {
+    font-size: 0.7em;
+}
+
+button:hover {
+    font-weight: 900;
+}
+
+button:active {
+    background-color: cyan;
+    color: beige;
+}
+
+input:focus {
+    color: red;
+}
+
+input:disabled {
+    display: none;
+}
+
+li:first-child {
+    font-size: 1.2em;
+}
+
+li:last-child {
+    font-size: 0.5em;
+}
